@@ -8,17 +8,17 @@ const config = {
 	// Consult https://kit.svelte.dev/docs/integrations#preprocessors
 	// for more information about preprocessors
 	preprocess: vitePreprocess(),
+	
 	vitePlugin: {
+		
 		inspector: {
 			showToggleButton: 'always',
-			
-		},
-		
+		}, 
 	},
 
 	kit: {
-		adapter: adapter({ fallback: '404.html',	precompress: false, }),
-		
+		adapter: adapter({ fallback: '404.html' }),
+		 
 		paths: {
 			base: process.env.NODE_ENV === 'production' ? base : ''
 		},

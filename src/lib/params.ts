@@ -49,7 +49,12 @@ export const HOME: HomePageParams = {
 	name: 'Kshitiz',
 	lastName: 'Bhargav',
 	description:
-		'Passionated Computer Science Geek, currently working as Full stack developer.',
+		`
+Passionated Computer Science Geek, currently working as Full stack developer. 
+Choice of technology is .Net MVC and core 8.0 for my current Insurance. 
+Trying to become Ninja of TypeScript, ECMAScript 6, Angular 17, and Javascript family. 
+Diving deep into AZURE & NodeJs.
+		`,
 	links: [
 		{ platform: Platform.GitHub, link: 'https://github.com/bhargav167' },
 		{
