@@ -1,6 +1,6 @@
 import adapter from '@sveltejs/adapter-static';
 import { vitePreprocess } from '@sveltejs/kit/vite'; 
-const base = '/'; 
+const base = '/portfolio'; 
  
 /** @type {import('@sveltejs/kit').Config} */
 /** @type {import('vite').Plugin} */
